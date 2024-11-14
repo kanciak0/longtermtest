@@ -1,0 +1,17 @@
+[serialWindows]
+port = COM1
+baudrate = 115200
+timeout = 1
+password = LZO212345
+pin = 9670
+apn_name = vpn.static.pl
+lwm2m_uri = coap://77.252.222.209:5683
+coap://77.252.222.209:5683
+[serialLinux]
+port = /dev/ttyUSB0
+baudrate = 115200
+timeout = 1
+password = LZO212345
+pin = 1234
+apn_name = vpn.static.pl
+lwm2m_uri = coap://77.252.222.209:5683
